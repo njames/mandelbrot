@@ -1,2 +1,7 @@
 
 .DS_Store
+.img/
+
+go.mod
+go.sum
+mandlebrot

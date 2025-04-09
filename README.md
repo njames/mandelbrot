@@ -29,3 +29,17 @@ mandelbrot OPTIONS
 -z float
     Zoom level. (default 1)
 ```
+
+
+# Clone and Build
+
+After you have cloned this repository to run it locally:
+
+```bash
+cd mandelbrot
+go mod init mandlebrot
+go mod tidy
+go build
+```
+
+This will generate the `mandelbrot` executable you can run as above.
